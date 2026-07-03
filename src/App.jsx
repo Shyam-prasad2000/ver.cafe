@@ -533,7 +533,7 @@ function App() {
           <div className="footer-contact-col">
             <h3>Newsletter</h3>
             <p style={{ fontSize: '0.9rem', marginBottom: '1rem', opacity: 0.8 }}>Subscribe to hear about new single origins and seasonal menu updates.</p>
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <div className="newsletter-form-container">
               <input 
                 type="email" 
                 placeholder="Your email address" 

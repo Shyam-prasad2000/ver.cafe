@@ -942,6 +942,20 @@ footer {
     gap: 1rem;
     text-align: center;
   }
+  .menu-tabs {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  .menu-tab-btn {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.85rem;
+  }
+  .newsletter-form-container {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -972,6 +986,18 @@ footer {
   }
   .menu-tab-btn:last-child {
     width: 100%;
+  }
+  .newsletter-form-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .newsletter-form-container input {
+    width: 100% !important;
+  }
+  .newsletter-form-container button {
+    width: 100% !important;
+    border-radius: 30px !important;
+    height: 3rem !important;
   }
   .map-wrapper {
     height: 280px;
