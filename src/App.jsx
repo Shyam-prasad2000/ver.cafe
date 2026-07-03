@@ -515,7 +515,7 @@ function App() {
             </div>
             <p>An anti-gravity design sanctuary celebrating the deep organic flavor roots of Kerala. Speciality coffees, handpicked local spices, and fresh warm bakes.</p>
             <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-              <a href="https://instagram.com" target="_blank" aria-label="Instagram" style={{ color: 'var(--color-sage-light)' }}><Instagram size={20} /></a>
+              <a href="https://www.instagram.com/ver.cafe/" target="_blank" aria-label="Instagram" style={{ color: 'var(--color-sage-light)' }}><Instagram size={20} /></a>
               <a href="https://facebook.com" target="_blank" aria-label="Facebook" style={{ color: 'var(--color-sage-light)' }}><Facebook size={20} /></a>
             </div>
           </div>
