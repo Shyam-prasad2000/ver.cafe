@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "tagline": "Anti-Gravity Coffee",
+    "title": "Where Malayalam Roots Meet Anti-Gravity Flavor.",
+    "description": "Ver.Cafe - Roots is Thrissur’s modern specialty coffee sanctuary. We blend floating, weightless design with deeply grounded local Kerala flavors to bring you a premium sensory experience."
+  },
+  "story": {
+    "label": "Our Story",
+    "title": "Deeply Grounded, ",
+    "titleItalic": "Always Elevated",
+    "paragraph1": "In Malayalam, \"Ver\" (വേര്) means root. It represents our deep-seated connection to the rich soil, heritage, and unique spice trails of Kerala.",
+    "quote": "\"We root ourselves in authentic local ingredients, while elevating them using modern, avant-garde brewing techniques.\"",
+    "paragraph2": "From cardamom-infused espresso to cold brew extracted with sweet tender coconut nectar, every cup we serve is a tribute to our home. We welcome you to experience Thrissur’s finest specialty coffee, served in a calm, modern space designed to make you feel light, floating, and at home."
+  },
+  "signatures": [
+    {
+      "id": "sig-1",
+      "title": "Malabar Spiced Latte",
+      "desc": "Double-shot espresso infused with cardamom, dried ginger, and locally sourced organic jaggery.",
+      "price": "₹240",
+      "image": "/product_1.jpg",
+      "iconType": "sparkles"
+    },
+    {
+      "id": "sig-2",
+      "title": "Roots Cold Brew",
+      "desc": "18-hour slow-steeped cold brew, cold-filtered and infused with sweet, fresh tender coconut nectar.",
+      "price": "₹220",
+      "image": "/product_2.jpg",
+      "iconType": "droplet"
+    },
+    {
+      "id": "sig-3",
+      "title": "Cardamom Affogato",
+      "desc": "Velvety double shot of hot espresso poured over premium house-crafted cardamom bean ice cream.",
+      "price": "₹260",
+      "image": "/product_3.jpg",
+      "iconType": "compass"
+    }
+  ],
+  "menu": {
+    "coffee": [
+      {
+        "name": "Single Origin Pour Over",
+        "price": "₹180",
+        "desc": "Locally sourced beans from Wayanad, brewed to bring out bright citrus and honey notes."
+      },
+      {
+        "name": "Traditional Espresso",
+        "price": "₹120",
+        "desc": "Double shot of our signature house blend with a rich hazelnut crema."
+      },
+      {
+        "name": "Classic Flat White",
+        "price": "₹160",
+        "desc": "Velvety steamed milk poured over a double ristretto shot."
+      },
+      {
+        "name": "Vanilla Bean Latte",
+        "price": "₹180",
+        "desc": "Espresso with house-made natural Madagascar vanilla syrup."
+      },
+      {
+        "name": "Kerala Jaggery Macchiato",
+        "price": "₹190",
+        "desc": "Espresso marked with micro-foam and a drizzle of local organic jaggery syrup."
+      }
+    ],
+    "infusions": [
+      {
+        "name": "Spiced Hibiscus Cold Brew Tea",
+        "price": "₹150",
+        "desc": "Refreshing cold steep of organic hibiscus flowers with a hint of cinnamon."
+      },
+      {
+        "name": "Tender Coconut Cold Brew",
+        "price": "₹190",
+        "desc": "Our signature cold brew layered with fresh, sweet tender coconut water."
+      },
+      {
+        "name": "Ginger Lemongrass Matcha",
+        "price": "₹180",
+        "desc": "Stone-ground Japanese matcha whisked with fresh ginger juice and lemongrass."
+      },
+      {
+        "name": "Cardamom Rose Latte",
+        "price": "₹170",
+        "desc": "Steamed milk with cardamon infusion and organic rosewater syrup (caffeine-free)."
+      }
+    ],
+    "bakes": [
+      {
+        "name": "Banana Bread with Spiced Ghee",
+        "price": "₹120",
+        "desc": "Warm slice of moist banana bread served with a dollop of cardamom-spiced ghee."
+      },
+      {
+        "name": "Sourdough Croissant",
+        "price": "₹140",
+        "desc": "Classic flaky butter croissant made with our 48-hour wild yeast sourdough starter."
+      },
+      {
+        "name": "Jackfruit Almond Tart",
+        "price": "₹160",
+        "desc": "Sweet pastry crust filled with almond frangipane and caramelized local jackfruit."
+      },
+      {
+        "name": "Dark Chocolate Sea Salt Cookie",
+        "price": "₹90",
+        "desc": "Chewy double chocolate cookie topped with flaky sea salt from the Malabar coast."
+      }
+    ]
+  },
+  "location": {
+    "address": "Ver.Cafe - Roots, MG Road,\nNear Thrissur Round,\nThrissur, Kerala - 680001",
+    "hours": "Open Daily\n11:00 AM – 11:00 PM",
+    "phone": "+91 98765 43210",
+    "email": "hello@vercafe.com",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.7533816654215!2d76.21200237586071!3d10.520150989617208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ee46d32aa653%3A0xc3c5f49e0a25fae8!2sM.G.%20Road%2C%20Thrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1719875000000!5m2!1sen!2sin"
+  }
+}
