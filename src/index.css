@@ -874,21 +874,36 @@ footer {
   }
   .story-images {
     height: 450px;
+    max-width: 600px;
+    margin: 0 auto;
   }
   .signatures-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
   }
   .location-container {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 3rem;
   }
   .footer-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
 }
 
 @media (max-width: 768px) {
+  .header-nav {
+    padding: 0.75rem 1.5rem;
+    top: 1rem;
+    width: 92%;
+  }
+  .nav-logo {
+    font-size: 1.25rem;
+  }
+  .nav-logo img {
+    height: 2rem !important;
+    width: 2rem !important;
+  }
   .nav-links {
     display: none;
   }
@@ -898,21 +913,83 @@ footer {
   .hero-ctas {
     flex-direction: column;
     width: 100%;
+    gap: 1rem;
   }
   .btn-primary, .btn-secondary {
     width: 100%;
     justify-content: center;
+  }
+  .floating-badge {
+    left: 50%;
+    bottom: 1.5rem;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 280px;
   }
   .signatures-grid {
     grid-template-columns: 1fr;
   }
   .menu-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
   .footer-bottom {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 5rem 1rem;
+  }
+  .hero-container {
+    margin-top: 3.5rem;
+  }
+  .hero-image-wrapper {
+    height: 350px;
+  }
+  .story-images {
+    height: 350px;
+  }
+  .story-quote {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+  }
+  .menu-tabs {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .menu-tab-btn {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.8rem;
+    width: calc(50% - 0.25rem);
+  }
+  .menu-tab-btn:last-child {
+    width: 100%;
+  }
+  .map-wrapper {
+    height: 280px;
+    border-radius: 20px;
+  }
+  .location-info-block {
+    gap: 1rem;
+  }
+  .location-icon-wrapper {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 12px;
+  }
+  .location-info-text h3 {
+    font-size: 1.2rem;
+  }
+  .signature-card {
+    padding: 1.5rem 1rem;
   }
 }
 
@@ -938,4 +1015,5 @@ footer {
 .signature-card:hover .sig-prod-img {
   transform: scale(1.05);
 }
+
 
